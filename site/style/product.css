@@ -1,0 +1,488 @@
+.body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1120px;
+}
+
+.map__container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.map__container::after {
+  position: relative;
+  content: "Куда доставить?";
+  left: 0;
+  top: 0;
+  font-size: 25px;
+}
+
+.map {
+  border: 1px solid rgb(207, 207, 207);
+  width: 100%;
+  height: 100%;
+}
+
+.produckt__main {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/39320e6aad6be80bd3f8bfd9b9e86321-1100x825.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 80px 30px 80px;
+}
+
+.produckt__info {
+  font-size: 50px;
+}
+
+.product__price {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.busket {
+  border-radius: 10px;
+  border: white 1px solid;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.busket:hover {
+  background: #fff;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.busket:active {
+  transform: scale(1.2);
+}
+
+.no__line-link {
+  text-decoration: none;
+}
+.order {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  border: white 1px solid;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.order:hover {
+  background: #fff;
+  border-radius: 10px;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.order:active {
+  transform: scale(1.2);
+}
+
+.produckt__box {
+  height: 360px;
+  width: 390px;
+  justify-content: center;
+}
+
+#product-disert-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/dissert-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-disert-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/dissert-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-disert-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/dissert-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-disert-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/dissert-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-disert-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/dissert-5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-disert-6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/dissert-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-disert-7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/dissert-7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-disert-8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/dissert-8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-disert-9 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/dissert-9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-fastfood-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/fastfood-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-fastfood-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/fastfood-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-fastfood-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/fastfood-3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-fastfood-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/fastfood-4.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-fastfood-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/fastfood-5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-fastfood-6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/fastfood-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-fastfood-7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/fastfood-7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-pizza-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/pozza-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-pizza-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/pozza-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-pizza-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/pozza-3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-pizza-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/pozza-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-pizza-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/pozza-5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-pizza-6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/pozza-6.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-pizza-7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/pozza-7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-pizza-8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/pozza-8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#product-pizza-9 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../media/product/pozza-9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.display--order {
+  display: none;
+}
+
+.order-body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(141, 141, 141, 0.5);
+}
+
+.order-msg {
+  padding: 3px;
+  position: fixed;
+  top: 110px;
+  left: 50%;
+  font-size: 20px;
+  transform: translateX(-50%);
+  text-align: center;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(134, 134, 134);
+}
+
+.act--order {
+  left: 50%;
+  top: 50%;
+  width: 400px;
+  height: 400px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(129, 129, 129);
+  border-radius: 10px;
+  transform: translateX(-50%) translateY(-50%);
+  transition: .5s;
+}
+
+.act--order *{
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid rgb(129, 129, 129);
+}
+
+.act--order label{
+  padding: 0px;
+  border-radius: 0px;
+  width: 100%;
+  border: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.act--order button{
+  transition: .5s;
+}
+
+.act--order button:hover{
+  background: rgba(80, 255, 89, 0.973);
+}
+
+@media (max-width: 767px) {
+  .map__container {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .map__container::after {
+    position: relative;
+    content: "Куда доставить?";
+    left: 0;
+    top: 0;
+    font-size: 25px;
+  }
+
+  .produckt__main {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+      url(../media/product/39320e6aad6be80bd3f8bfd9b9e86321-1100x825.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 165%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 80px 30px 80px;
+  }
+
+  .produckt__box {
+    height: 260px;
+    width: 290px;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .produckt__info {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .order {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    border: white 1px solid;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s ease-in-out;
+    margin-top: 8px;
+  }
+
+  .order:hover {
+    background: #fff;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+
+  .order:active {
+    transform: scale(1.1);
+  }
+
+  .product__price {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .busket {
+    margin-top: 16px;
+  }
+}
+
+
+
+@media (max-width: 1119px) {
+}

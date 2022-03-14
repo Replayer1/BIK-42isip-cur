@@ -1,0 +1,94 @@
+.body {
+  width: 100%;
+  min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+
+@media (max-width: 767px) {
+  .body {
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  max-height: 251px;
+  height: 54vw;
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input{
+  padding: 7px;
+  border: 1px rgb(197, 197, 197) solid;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.form-container input:focus{
+  padding: 8px;
+  border: 1px rgb(151, 151, 151) solid;
+}
+
+.form-container input[type="submit"]{
+  padding: 4px;
+  margin-top: 25px;
+  border: 1px rgb(197, 197, 197) solid;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.form-container input[type="submit"]:hover{
+  background: rgb(100, 224, 127);
+}
+
+.form-container label{
+  margin: 15px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.msg {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(196, 111, 0);
+  margin-top: 10px;
+}
+
+#file-btn {
+  padding: 7px 7px 7px 7px;
+  border: 1px rgb(197, 197, 197) solid;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  margin: 0;
+}
+
+#file-btn:hover {
+  background: rgb(197, 197, 197);
+}
+
+@media (max-width:767px){
+  .body {
+     min-height: 800px;
+  }
+}

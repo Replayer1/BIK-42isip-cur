@@ -1,0 +1,52 @@
+.wrapper {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.content {
+   padding: 0;
+   margin: 0;
+   max-width: 1120px;
+}
+
+.container {
+   padding: 0;
+   margin: 0;
+   max-width: none;
+   min-width: none;
+}
+
+.body {
+   padding-top: 100px;
+   padding-bottom: 100px;
+   margin: 0;
+   width: 100%;
+}
+
+
+*,*::after,*::before{
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+html,body {
+   height: 100%;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+@media (max-width:767px){
+
+   body.lock{
+      overflow: hidden;
+   }
+
+   .body {
+      padding-top: 50px;
+      padding-bottom: 100px;
+      margin: 0;
+      width: 100%;
+   }
+}
